@@ -52,7 +52,45 @@ public class S3_JavaPrimitiveTypes {
         System.out.println("Valor minimo tipo double: " + Double.MIN_VALUE);
         System.out.println("Valor maximo tipo double " + Double.MAX_VALUE);
 
+        /*
+            Inferencia de tipos con var y tipos primitivos
+         */
         var numeroEntero = 10;
         System.out.println("numeroEntero = " + numeroEntero);
+        
+        var numeroDouble2 = 10.0;
+        System.out.println("numeroDouble2 = " + numeroDouble2);
+        
+        var numeroFloat2 = 10.0F;
+        System.out.println("numeroFloat2 = " + numeroFloat2);
+        
+        /*
+            Tipos primitivos del tipo char
+         */
+        char miCaracter = 'a';
+        System.out.println("miCaracter = " + miCaracter);
+        
+        char varChar = '\u0021';
+        System.out.println("varChar = " + varChar);
+        
+        char varCharDecimal =  33;
+        System.out.println("varCharDecimal = " + varCharDecimal);
+        
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo = " + varCharSimbolo);
+        
+        var varChar1 = '\u0021';
+        System.out.println("varChar1 = " + varChar1);
+        
+        var varCharDecimal2 =  33;
+        System.out.println("varCharDecimal2 = " + varCharDecimal2);
+        var varCharDecimal3 = (char)33; //int convertido a char
+        System.out.println("varCharDecimal3 = " + varCharDecimal3);
+        
+        var varCharSimbolo3 = '!';
+        System.out.println("varCharSimbolo3 = " + varCharSimbolo3);
+        
+        int letra = 'A';
+        System.out.println("letra = " + letra);
     }
 }
