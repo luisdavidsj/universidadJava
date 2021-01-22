@@ -30,9 +30,7 @@ public class S3_JavaPrimitiveTypes {
         System.out.println("Valor minimo long: " + Long.MIN_VALUE);
         System.out.println("Valor maximo long: " + Long.MAX_VALUE);
 
-        /*
-            Tipos primitivos del tipo flotante: float y double
-         */
+        //Tipos primitivos del tipo flotante: float y double
         float numeroFloat = (float) 3.4028235E38D;
         System.out.println("numeroFloat = " + numeroFloat);
         System.out.println("Valor minimo tipo float: " + Float.MIN_VALUE);
@@ -43,9 +41,7 @@ public class S3_JavaPrimitiveTypes {
         System.out.println("Valor minimo tipo double: " + Double.MIN_VALUE);
         System.out.println("Valor maximo tipo double " + Double.MAX_VALUE);
 
-        /*
-            Inferencia de tipos con var y tipos primitivos
-         */
+        //Inferencia de tipos con var y tipos primitivos
         var numeroEntero = 10;
         System.out.println("numeroEntero = " + numeroEntero);
 
@@ -55,9 +51,7 @@ public class S3_JavaPrimitiveTypes {
         var numeroFloat2 = 10.0F;
         System.out.println("numeroFloat2 = " + numeroFloat2);
 
-        /*
-            Tipos primitivos del tipo char
-         */
+        //Tipos primitivos del tipo char
         char miCaracter = 'a';
         System.out.println("miCaracter = " + miCaracter);
 
@@ -84,9 +78,7 @@ public class S3_JavaPrimitiveTypes {
         int letra = 'A';
         System.out.println("letra = " + letra);
 
-        /*
-            Tipos primitivos del tipo boolean
-         */
+        //Tipos primitivos del tipo boolean
         boolean varBoolean = true;
         System.out.println("varBoolean = " + varBoolean);
 
@@ -96,17 +88,15 @@ public class S3_JavaPrimitiveTypes {
             System.out.println("La bandera es falsa");
         }
 
-        var edad = 10;
-        //var esAdulto = edad >= 18;
+        var edad = 10;//var esAdulto = edad >= 18;
         if (edad >= 18) {
             System.out.println("Eres mayor de edad");
         } else {
             System.out.println("Eres menor de edad");
         }
 
-        /*
-            Conversión de tipos primitivos en Java parte 1
-         */
+        //Conversión de tipos primitivos en Java parte 1
+        
         //Convertir tipo String a un tipo int
         var edad2 = Integer.parseInt("20");
         //var edad = "20";
@@ -121,9 +111,8 @@ public class S3_JavaPrimitiveTypes {
         edad2 = Integer.parseInt(consola.nextLine());
         System.out.println("edad = " + edad2);
 
-        /*
-            Conversión de tipos primitivos en Java parte 2
-         */
+        //Conversión de tipos primitivos en Java parte 2
+        
         //Convertir tipo String a un tipo int
         var edad3 = Integer.parseInt("20");
         //var edad = "20";
