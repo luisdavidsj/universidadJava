@@ -1,6 +1,3 @@
-
-import java.util.Scanner;
-
 //Mi clase en Java
 public class HolaMundo {
 
