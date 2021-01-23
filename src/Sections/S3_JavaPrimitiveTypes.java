@@ -1,3 +1,7 @@
+////////////////////////////////////////////////////////////////////////////////
+//Sección 3: Fundamentos Java: Tipos Primitivos en Java
+////////////////////////////////////////////////////////////////////////////////
+
 package Sections;
 
 import java.util.Scanner;
@@ -5,9 +9,6 @@ import java.util.Scanner;
 public class S3_JavaPrimitiveTypes {
 
     public static void main(String[] args) {
-        ////////////////////////////////////////////////////////////////////////
-        //Sección 3: Fundamentos Java: Tipos Primitivos en Java
-        ////////////////////////////////////////////////////////////////////////
         
         // Tipos primitivos del tipo entero: byte, short, int, long
         byte numeroByte = (byte) 129;
@@ -96,7 +97,6 @@ public class S3_JavaPrimitiveTypes {
         }
 
         //Conversión de tipos primitivos en Java parte 1
-        
         //Convertir tipo String a un tipo int
         var edad2 = Integer.parseInt("20");
         //var edad = "20";
@@ -112,7 +112,6 @@ public class S3_JavaPrimitiveTypes {
         System.out.println("edad = " + edad2);
 
         //Conversión de tipos primitivos en Java parte 2
-        
         //Convertir tipo String a un tipo int
         var edad3 = Integer.parseInt("20");
         //var edad = "20";

@@ -1,3 +1,7 @@
+////////////////////////////////////////////////////////////////////////////////
+//Sección 2: Fundamentos Java: Variables en Java
+////////////////////////////////////////////////////////////////////////////////
+
 package Sections;
 
 import java.util.Scanner;
@@ -5,9 +9,6 @@ import java.util.Scanner;
 public class S2_JavaVariables {
 
     public static void main(String[] args) {
-        ////////////////////////////////////////////////////////////////////////
-        //Sección 2: Fundamentos Java: Variables en Java
-        ////////////////////////////////////////////////////////////////////////
         
         //Definimos la variable tipo: int
         int miVariableEntera = 10;
@@ -69,12 +70,5 @@ public class S2_JavaVariables {
         var titulo2 = consola.nextLine();
         System.out.println("Resultado: " + titulo2 + " " + usuario2);
 
-        //Ejercicio clase scanner
-        Scanner consola2 = new Scanner(System.in);//Se coloca primero
-        System.out.println("Proporciona el titulo: ");
-        var titulo3 = consola2.nextLine();
-        System.out.println("Proporciona el autor: ");
-        var autor = consola2.nextLine();
-        System.out.println(titulo3 + " fue escrito por " + autor);
     }
 }
