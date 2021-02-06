@@ -87,6 +87,21 @@ public class S4_JavaOperators {
         System.out.println("l = " + l);
         
         //27. Ejercicio: Operadores de Igualdad y Relacionales en Java
+        var a4 = 3;
+        var b4 = 2;
         
+        var c3 = (a4 == b4);//Con parentesiss
+        System.out.println("c3 = " + c3);
+        
+        var d2 = a4 != b4;//Sin parentesis
+        System.out.println("d2 = " + d2);
+        
+        var cadena = "Hola";
+        var cadena2 = "Hola";
+        var e2 = cadena == cadena2;//Compara referencia de objetos
+        System.out.println("e2 = " + e2);
+        
+        var f2 = cadena.equals(cadena2);//Comparamos contenido de cadenas
+        System.out.println("f2 = " + f2);
     }
 }
