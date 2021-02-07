@@ -146,5 +146,14 @@ public class S4_JavaOperators {
         else{
             System.out.println("El padre esta ocupado");
         }
+        
+        //30. Ejercicio: Operador Ternario en Java
+        var resultado4 = (1 > 2) ? "Verdadero" : "Falso";
+        System.out.println("resultado4 = " + resultado4);
+        
+        var numero = 9;
+        resultado4 = (numero % 2 == 0) ? "Numero Par" : "Numero Impar";//Se pueden utilizar los operadores ternarios siempre y cuando la expresion sea simple, en caso contrario, se recomienda usar if, else
+        System.out.println("resultado4 = " + resultado4);
+        
     }
 }
