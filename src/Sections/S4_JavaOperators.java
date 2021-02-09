@@ -155,5 +155,18 @@ public class S4_JavaOperators {
         resultado4 = (numero % 2 == 0) ? "Numero Par" : "Numero Impar";//Se pueden utilizar los operadores ternarios siempre y cuando la expresion sea simple, en caso contrario, se recomienda usar if, else
         System.out.println("resultado4 = " + resultado4);
         
+        //32. Ejercicio: Precedencia de Operadores en Java
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        
+        var resultado5 = 4 + 5 * 6 / 3;//4 + ((5*6)/3)
+        System.out.println("resultado5 = " + resultado5);//14
+        
+        resultado5 = (4 + 5) * 6 / 3;
+        System.out.println("resultado5 = " + resultado5);
     }
 }
