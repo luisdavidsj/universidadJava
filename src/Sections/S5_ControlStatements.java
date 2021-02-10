@@ -15,9 +15,9 @@ public class S5_ControlStatements {
         }
         
         //34. Ejercicio If - else en Java
-        var numero = 4;
+        var numero = 2;
         var numeroTexto = "Numero desconocido";
-        
+        //Nota: Parece que el IDE aconseja automáticamente cambiar la sentencia de control de if a switch, por motivos de productividad
         if (numero == 1) {
             numeroTexto = "Numero Uno";
         }
